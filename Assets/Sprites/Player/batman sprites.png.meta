@@ -115,28 +115,28 @@ TextureImporter:
     second: batman sprites_36
   - first:
       213: -1069448040036558737
-    second: batman sprites_37
+    second: walk shooting1
   - first:
       213: 6012048567578142281
-    second: batman sprites_38
+    second: walk shooting2
   - first:
       213: 2416524085231379856
-    second: batman sprites_39
+    second: walk shooting3
   - first:
       213: -8754523727021959732
-    second: batman sprites_40
+    second: walk shooting4
   - first:
       213: -3032860356710948189
-    second: batman sprites_41
+    second: walk shooting5
   - first:
       213: 6446489675554058508
-    second: batman sprites_42
+    second: walk shooting6
   - first:
       213: -5879342865419150492
-    second: batman sprites_43
+    second: walk shooting7
   - first:
       213: -4603669385231810584
-    second: batman sprites_44
+    second: walk shooting8
   - first:
       213: -3103467640024318125
     second: batman sprites_45
@@ -175,7 +175,7 @@ TextureImporter:
     second: jump2
   - first:
       213: 8302888960970893379
-    second: batman sprites_57
+    second: jump shoot
   - first:
       213: -5769659104540275549
     second: batman sprites_58
@@ -256,10 +256,10 @@ TextureImporter:
     second: batman sprites_83
   - first:
       213: 2995391532759243129
-    second: batman sprites_84
+    second: crouch
   - first:
       213: -6669240258798884006
-    second: batman sprites_85
+    second: crouch shooting
   - first:
       213: -6121965989545115895
     second: batman sprites_86
@@ -334,10 +334,10 @@ TextureImporter:
     second: batman sprites_109
   - first:
       213: 1069764565155681879
-    second: batman sprites_110
+    second: grapple1
   - first:
       213: 7548892905428517296
-    second: batman sprites_111
+    second: grapple2
   - first:
       213: -2681076918121558817
     second: batman sprites_112
@@ -866,6 +866,9 @@ TextureImporter:
   - first:
       213: -3353045816739057832
     second: batman sprites_287
+  - first:
+      213: 8022562393458234251
+    second: batman sprites_288
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -1780,7 +1783,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: batman sprites_37
+      name: walk shooting1
       rect:
         serializedVersion: 2
         x: 444
@@ -1801,7 +1804,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: batman sprites_38
+      name: walk shooting2
       rect:
         serializedVersion: 2
         x: 490
@@ -1822,7 +1825,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: batman sprites_39
+      name: walk shooting3
       rect:
         serializedVersion: 2
         x: 536
@@ -1843,7 +1846,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: batman sprites_40
+      name: walk shooting4
       rect:
         serializedVersion: 2
         x: 581
@@ -1864,7 +1867,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: batman sprites_41
+      name: walk shooting5
       rect:
         serializedVersion: 2
         x: 625
@@ -1885,7 +1888,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: batman sprites_42
+      name: walk shooting6
       rect:
         serializedVersion: 2
         x: 670
@@ -1906,7 +1909,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: batman sprites_43
+      name: walk shooting7
       rect:
         serializedVersion: 2
         x: 716
@@ -1927,7 +1930,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: batman sprites_44
+      name: walk shooting8
       rect:
         serializedVersion: 2
         x: 762
@@ -2200,7 +2203,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: batman sprites_57
+      name: jump shoot
       rect:
         serializedVersion: 2
         x: 444
@@ -2767,7 +2770,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: batman sprites_84
+      name: crouch
       rect:
         serializedVersion: 2
         x: 38
@@ -2788,7 +2791,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: batman sprites_85
+      name: crouch shooting
       rect:
         serializedVersion: 2
         x: 444
@@ -3313,7 +3316,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: batman sprites_110
+      name: grapple1
       rect:
         serializedVersion: 2
         x: 444
@@ -3334,7 +3337,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: batman sprites_111
+      name: grapple2
       rect:
         serializedVersion: 2
         x: 477
@@ -7046,6 +7049,27 @@ TextureImporter:
       bones: []
       spriteID: 85fa8a948969771d0800000000000000
       internalID: -3353045816739057832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: batman sprites_288
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 1048
+        width: 43
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b835c72ddfdd55f60800000000000000
+      internalID: 8022562393458234251
       vertices: []
       indices: 
       edges: []
