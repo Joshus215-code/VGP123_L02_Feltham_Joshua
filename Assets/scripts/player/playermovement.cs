@@ -10,19 +10,20 @@ public class playermovement : MonoBehaviour
     Rigidbody2D rb;
     Animator anim;
 
-    public GameObject joker;
+    
     public float speed;
     public int jumpForce;
     public bool isGrounded;
     public LayerMask isGroundLayer;
     public Transform groundCheck;
     public float groundCheckRadius;
-    bool facingRight = true;
+    public bool facingRight = true;
+
     bool isShooting = false;
     bool isJumpShooting = false;
     bool upGrapple = false;
     bool isWalkShooting = false;
-    bool isCrouching = false;
+    public bool isCrouching = false;
     bool crouchShooting = false;
 
 
@@ -130,6 +131,7 @@ public class playermovement : MonoBehaviour
             isWalkShooting = false;
         }
 
+        //Flipping
 
         if (horizontalInput > 0 && facingRight == false)
         {
